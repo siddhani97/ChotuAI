@@ -462,8 +462,8 @@ h2 {
 
 .experience h2 {
   font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--text-700);
+  font-weight: 400;
+  color: #4A5565;
   text-align: center;
   margin: 0 auto 2rem;
   max-width: 620px;
@@ -761,7 +761,7 @@ h2 {
 
 .why .card p {
   margin: 0;
-  color: var(--text-700);
+  color: #4A5565;
   line-height: 1.5;
 }
 
@@ -779,7 +779,7 @@ h2 {
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--text-700);
+  color: #4A5565;
   margin: 0 0 1.6rem;
 }
 
@@ -841,7 +841,7 @@ h2 {
 
 .how .card p {
   margin: 0;
-  color: var(--text-700);
+  color: #4A5565;
   position: relative;
   z-index: 1;
 }
@@ -1113,7 +1113,7 @@ h2 {
 }
 
 .badge-text {
-  color: #333;
+  color: #4A5565;
   font-size: 0.85rem;
   font-weight: 500;
 }
@@ -1127,6 +1127,7 @@ h2 {
 
 .footer-bottom p {
   margin: 0;
+  color: #4A5565;
 }
 
 .muted {
@@ -1410,7 +1411,7 @@ h2 {
 }
 
 .features-section .feature-card p {
-  color: var(--text-700);
+  color: #4A5565;
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.6;
@@ -1433,7 +1434,7 @@ h2 {
 .tools-subtitle {
   text-align: center;
   font-size: 1rem;
-  color: #6b7280;
+  color: #4A5565;
   margin-bottom: 3rem;
   line-height: 1.6;
 }
@@ -1531,14 +1532,18 @@ h2 {
 }
 
 .tool-card p {
-  color: #4a5568;
+  color: #4A5565 !important;
   margin: 0 0 0.375rem;
   font-size: 0.85rem;
   line-height: 1.5;
 }
 
+.tool-card p.tool-card-blue {
+  color: #0066FF !important;
+}
+
 .tool-card-blue {
-  color: #2563eb !important;
+  color: #0066FF !important;
   font-size: 0.85rem;
   line-height: 1.5;
   margin-top: 0.375rem;
@@ -1582,7 +1587,7 @@ h2 {
   margin-bottom: 1.5rem;
   padding-left: 1.5rem;
   position: relative;
-  color: var(--text-700);
+  color: #4A5565 !important;
   line-height: 1.6;
 }
 
@@ -1615,6 +1620,7 @@ h2 {
 
 .platform-works .section-subtitle {
   text-align: center;
+  color: #4A5565;
   margin-bottom: 3rem;
 }
 
@@ -1668,7 +1674,7 @@ h2 {
 }
 
 .platform-step-card p {
-  color: var(--text-700);
+  color: #4A5565 !important;
   margin: 0;
   line-height: 1.6;
 }
@@ -1882,7 +1888,7 @@ h2 {
 }
 
 .grow-card p {
-  color: var(--text-700);
+  color: #4A5565;
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.6;
@@ -1917,7 +1923,7 @@ h2 {
 
 .db-tagline {
   font-size: 1.1rem;
-  color: var(--text-700);
+  color: #4A5565;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -1960,7 +1966,7 @@ h2 {
 }
 
 .db-list li div {
-  color: var(--text-700);
+  color: #4A5565;
   line-height: 1.6;
 }
 
@@ -1972,7 +1978,7 @@ h2 {
 
 .db-caption {
   text-align: center;
-  color: var(--text-700);
+  color: #4A5565;
   margin-top: 1rem;
   font-size: 0.9rem;
 }
@@ -1981,7 +1987,7 @@ h2 {
 .risk-free {
   padding: 4rem 0;
   background: #ffffff;
-  margin-top: 10rem;
+  margin-top: calc(10rem - 4rem);
 }
 
 .risk-free-title {
@@ -2067,7 +2073,7 @@ h2 {
 }
 
 .risk-free-card p {
-  color: var(--text-700);
+  color: #4A5565;
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.6;
@@ -2077,7 +2083,7 @@ h2 {
 .busy-kirana {
   padding: 4rem 0;
   background: #ffffff;
-  margin-top: -20rem;
+  margin-top: calc(-20rem - 6rem);
 }
 
 .busy-kirana .section-title {
@@ -2155,7 +2161,7 @@ h2 {
 }
 
 .busy-step-card p {
-  color: var(--text-700);
+  color: #4A5565;
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.6;
@@ -2183,7 +2189,7 @@ h2 {
 
 .how-it-works-retailer .section-subtitle {
   text-align: center;
-  color: var(--text-700);
+  color: #4A5565;
   margin-bottom: 3rem;
 }
 
@@ -2245,7 +2251,7 @@ h2 {
 }
 
 .how-works-card p {
-  color: var(--text-700);
+  color: #4A5565;
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.6;
@@ -2349,7 +2355,7 @@ h2 {
 }
 
 .faq-answer {
-  color: #666;
+  color: #4A5565;
   font-size: 0.9rem;
   line-height: 1.6;
   margin-top: 0.75rem;
@@ -2552,7 +2558,7 @@ h2 {
 
 .mission-content p {
   font-size: 1.05rem;
-  color: #000;
+  color: #4A5565 !important;
   line-height: 1.7;
   margin: 0;
   text-align: center;
@@ -2621,7 +2627,7 @@ h2 {
 
 .feature-about-card p {
   font-size: 0.95rem;
-  color: var(--text-700);
+  color: #4A5565;
   line-height: 1.6;
   margin: 0;
   flex: 1;
@@ -2684,7 +2690,7 @@ h2 {
 
 .story-content p {
   font-size: 1.1rem;
-  color: #333;
+  color: #4A5565 !important;
   line-height: 1.7;
 }
 
